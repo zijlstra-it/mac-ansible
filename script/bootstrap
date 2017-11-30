@@ -15,7 +15,7 @@ function display() {
 
 # Install Xcode; on clean Mac call this script directly then use make to finish. 
 if [ ! `which cc` ]; then
-  display "Installing xcode "
+  display "Installing Xcode "
   sudo xcode-select --install 
 fi
 
