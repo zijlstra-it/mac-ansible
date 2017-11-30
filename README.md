@@ -1,6 +1,8 @@
 # mac-ansible
 
-Personal mac setup provisioned through Ansible
+Personal mac setup provisioned through Ansible.
+
+As this repo is a fork of the one from *mtchavez*, all credit goes to him for giving me this nice starting point.
 
 ## Requirements
 
