@@ -13,6 +13,12 @@ function display() {
     echo "----> $1"
 }
 
+# Install Xcode; on clean Mac call this script directly then use make to finish. 
+if [ ! `which cc` ]; then
+  display "Installing xcode "
+  sudo xcode-select --install 
+fi
+
 if [ ! `which pip` ]
 then
     display "Installing pip"

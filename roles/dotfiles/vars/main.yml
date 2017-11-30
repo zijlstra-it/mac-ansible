@@ -1,5 +1,5 @@
 ---
 
-dotfiles_repo: "git://github.com/mtchavez/dotfiles.git"
-dotfiles_dir: "{{ documents_dir }}/dotfiles"
-dotfiles_install_cmd: "./bootstrap.sh -f"
+dotfiles_repo: "git://github.com/zijlstra-it/dotfiles.git"
+dotfiles_dir: "{{ gitrepos_dir }}/dotfiles"
+dotfiles_install_cmd: "make install"

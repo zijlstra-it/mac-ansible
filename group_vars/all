@@ -3,5 +3,6 @@
 home_dir: "{{ lookup('env', 'HOME') }}"
 workspace_dir: "{{ home_dir }}/Projects"
 documents_dir: "{{ home_dir }}/Documents"
+gitrepos_dir: "{{ home_dir }}/git"
 
 # vim: ft=yaml:

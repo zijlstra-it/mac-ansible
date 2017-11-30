@@ -23,10 +23,3 @@
   with_items: "{{ python_packages }}"
   tags:
     - python
-
-- name: Install python versions via pyenv
-  shell: "if [ ! `pyenv versions | grep {{ item }}` ]; then {{ python_pyenv_install_cmd }} {{ item }}; fi"
-  with_items: "{{ python_pyenv_versions }}"
-  when: python_use_pyenv
-  tags:
-    - python
