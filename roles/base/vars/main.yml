@@ -20,17 +20,12 @@ brew_base_packages:
   - name: ipcalc
   - name: ssh-copy-id
 brew_cask_applications:
-  - name: firefox
   - name: gpgtools
   - name: iterm2
   - name: spotify
   - name: sublime-text
   - name: the-unarchiver
-  - name: tunnelblick
   - name: virtualbox
-  - name: viscosity
+  - name: slack
   - name: vlc
   - name: whatsapp
-#brew_taps:
-#  - name: caskroom/versions
-#  - name: homebrew/science
