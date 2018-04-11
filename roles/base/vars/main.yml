@@ -22,10 +22,13 @@ brew_base_packages:
 brew_cask_applications:
   - name: gpgtools
   - name: iterm2
+  - name: lastpass
+  - name: slack
   - name: spotify
   - name: sublime-text
   - name: the-unarchiver
   - name: virtualbox
-  - name: slack
+  - name: viscosity
   - name: vlc
   - name: whatsapp
+  - name: karabiner
