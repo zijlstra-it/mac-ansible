@@ -7,4 +7,3 @@ python_packages:
   - pip
   - ansible-lint
   - pylint
-  - molecule
