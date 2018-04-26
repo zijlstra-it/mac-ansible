@@ -34,3 +34,4 @@ brew_cask_applications:
   - name: vlc
   - name: whatsapp
   - name: karabiner
+  - name: firefox
