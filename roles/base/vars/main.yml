@@ -19,7 +19,6 @@ brew_base_packages:
   - name: wget
   - name: ipcalc
   - name: ssh-copy-id
-  - name: molecule
 brew_cask_applications:
   - name: gpgtools
   - name: iterm2
@@ -33,6 +32,6 @@ brew_cask_applications:
   - name: viscosity
   - name: vlc
   - name: whatsapp
-  - name: karabiner
   - name: firefox
   - name: spotmenu
+  - name: typora
