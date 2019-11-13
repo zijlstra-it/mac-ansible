@@ -35,3 +35,4 @@ brew_cask_applications:
   - name: firefox
   - name: spotmenu
   - name: typora
+  - name: postman
