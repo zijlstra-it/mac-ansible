@@ -19,6 +19,11 @@ to provision.
 
 The `mac-osx.yml` playbook is then ran to provision everything.
 
+One-line installation:
+```
+$ mkdir git && cd git && git clone https://github.com/zijlstra-it/mac-ansible.git && cd mac-ansible && make
+```
+
 ## Roles
 
 Some roles are tied directly to my personal setup. If you are using this you could
